@@ -1,0 +1,17 @@
+# Security: NEVER commit API keys
+.env
+.env.*
+*.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit specific
+.streamlit/
+
+# Virtual Environments (if you ever use them locally)
+venv/
+env/
+.venv/
